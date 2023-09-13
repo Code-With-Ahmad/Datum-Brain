@@ -1,0 +1,19 @@
+/* CSS Reset */ 
+*
+{
+    margin: 0 ;
+    padding: 0 ;
+    list-style: none ;
+    text-decoration: none ;
+    box-sizing: border-box ;
+}
+/* Setting the height and width to 100% */
+html,body
+{
+    height: 100% ;
+    width: 100% ;
+}
+body
+{
+    background-color: #e1e1e1;
+}

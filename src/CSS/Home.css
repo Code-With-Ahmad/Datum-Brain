@@ -1,0 +1,14 @@
+.results-heading
+{
+    color: #0f95cf;;
+}
+@media only screen and (max-width : 767px)
+{
+  .i-c
+  {
+    margin-top: 60px !important;
+    margin: auto;
+   
+  }
+ 
+}

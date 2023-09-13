@@ -1,0 +1,33 @@
+.star-rating {
+    font-size: 0;
+  }
+  
+  .star {
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    background-color: transparent;
+    margin-right: 2px; 
+    margin: 10px 5px;
+  }
+  
+  .filled {
+    color: gold; 
+  }
+  
+  .empty {
+    color: #ccc; 
+  }
+  @media only screen and (max-width:992px) {
+   .star-rating
+   {
+    width: 100%;
+    
+   } 
+   .star
+   {
+    margin: 0;
+    padding: 2px 2px;
+    padding-bottom: 10px;
+   }
+  }
